@@ -349,15 +349,21 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.card__list-divider {
-  margin-bottom: 16px;
+.card__list_item-description {
+  flex-grow: 1;
+  margin-right: 10px;
+  flex-wrap: nowrap;
 }
 
 .card__list-divider::before {
-  content: "";
-  display: block;
-  border-top: 1px solid black;
-  width: 100%;
+  content: "__________________________________________";
+  border-bottom-left-radius: 1px solid black;
+  flex-grow: 1;
+  margin-right: 10px;
+  margin-bottom: 16px;
 }
