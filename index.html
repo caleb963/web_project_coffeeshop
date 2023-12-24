@@ -23,24 +23,26 @@
   <body>
     <div class="page">
       <header class="header">
-        <nav class="nav">
+        <nav class="header__nav">
           <img
             src="./images/logo_coffeeshop_dark.svg"
             alt="Triple Espresso Logo"
-            class="nav__logo"
+            class="header__nav_logo"
           />
-          <ul class="nav__links">
+          <ul class="header__nav_links">
             <li>
-              <a class="nav__link" href="#recipes">Recetas</a>
+              <a class="header__nav_link" href="#recipes">Recetas</a>
             </li>
             <li>
-              <a class="nav__link" href="#reservation">Reservar una mesa</a>
+              <a class="header__nav_link" href="#reservation"
+                >Reservar una mesa</a
+              >
             </li>
             <li>
-              <a class="nav__link" href="#menu">Menu</a>
+              <a class="header__nav_link" href="#menu">Menu</a>
             </li>
             <li>
-              <a class="nav__link" href="#about">Contactos</a>
+              <a class="header__nav_link" href="#about">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -118,43 +120,51 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
-          <form class="reservation__form form">
-            <fieldset class="form__fieldset">
-              <label class="form__label" for="nombre"
+          <form class="reservation__form_form">
+            <fieldset class="reservation__form_fieldset">
+              <label class="reservation__form_label" for="nombre"
                 >Nombre*
                 <input
                   type="text"
-                  class="form__input"
+                  class="reservation__form_input"
                   placeholder="Nombre Apellido"
                   id="nombre"
                   required
                 />
               </label>
-              <label class="form__label" for="num"
+              <label class="reservation__form_label" for="num"
                 >Numero de comensales*
                 <input
                   type="number"
-                  class="form__input"
+                  class="reservation__form_input"
                   placeholder="1-8"
                   id="num"
                   required
               /></label>
-              <label class="form__label" for="date">
+              <label class="reservation__form_label" for="date">
                 Fecha y hora*
-                <input type="datetime-local" class="form__input" id="date" />
+                <input
+                  type="datetime-local"
+                  class="reservation__form_input"
+                  id="date"
+                />
               </label>
-              <label class="form__label" for="email"
+              <label class="reservation__form_label" for="email"
                 >Tu correo electronico*
                 <input
                   type="email"
-                  class="form__input"
+                  class="reservation__form_input"
                   placeholder="email@email.com"
                   id="email"
               /></label>
             </fieldset>
-            <button class="form__button">Reservar una mesa</button>
-            <label class="form__label-checkbox" for="aceptar">
-              <input type="checkbox" class="form__checkbox" id="aceptar" />
+            <button class="reservation__form_button">Reservar una mesa</button>
+            <label class="reservation__form_label-checkbox" for="aceptar">
+              <input
+                type="checkbox"
+                class="reservation__form_checkbox"
+                id="aceptar"
+              />
               Acepto los terminos de uso
             </label>
           </form>
@@ -168,96 +178,102 @@
             nuestra colección a $2/taza.
           </h3>
           <div class="menu__cards">
-            <div class="card">
+            <div class="menu__card">
               <ul>
-                <h4 class="card__title">De filtro</h4>
-                <li class="card__list-item">
-                  <span class="card__list_item-description"
+                <h4 class="menu__card_title">De filtro</h4>
+                <li class="menu__card_list-item">
+                  <span class="menu__card_list-item-description"
                     >Regular (350 ml)</span
                   >
-                  <span class="card__list-divider">$1</span>
+                  <span class="menu__card_list-divider">$1</span>
                 </li>
-                <li class="card__list-item">
+                <li class="menu__card_list-item">
                   <span class="card__list_item-description"
                     >Grande (470 ml)</span
                   >
-                  <span class="card__list-divider">$1.25</span>
+                  <span class="menu__card_list-divider">$1.25</span>
                 </li>
-                <li class="card__list-item">
+                <li class="menu__card_list-item">
                   <span class="card__list_item-description">XL (590 ml)</span>
-                  <span class="card__list-divider">$1.5</span>
+                  <span class="menu__card_list-divider">$1.5</span>
                 </li>
-                <li class="card__list-item">
+                <li class="menu__card_list-item">
                   <span class="card__list_item-description"
                     >Tamaño familiar (700 ml, descafeinado)</span
                   >
-                  <span class="card__list-divider">$1.75</span>
+                  <span class="menu__card_list-divider">$1.75</span>
                 </li>
-                <li class="card__list-item">
+                <li class="menu__card_list-item">
                   <span class="card__list_item-description"
                     >Café helado(470 ml)</span
                   >
-                  <span class="card__list-divider">$3</span>
+                  <span class="menu__card_list-divider">$3</span>
                 </li>
               </ul>
             </div>
-            <div class="card">
+            <div class="menu__card">
               <ul>
-                <h4 class="card__title">Espresso</h4>
-                <li class="card__list-item">
-                  <span class="card___list_item-description">Macchiato</span>
-                  <span class="card__list-divider">$2.25</span>
+                <h4 class="menu__card_title">Espresso</h4>
+                <li class="menu__card_list-item">
+                  <span class="menu__card_list-item-description"
+                    >Macchiato</span
+                  >
+                  <span class="menu__card_list-divider">$2.25</span>
                 </li>
-                <li class="card__list-item">
-                  <span class="card__list_item-description">Cortado</span>
-                  <span class="card__list-divider">$2.5</span>
+                <li class="menu__card_list-item">
+                  <span class="menu__card_list-item-description">Cortado</span>
+                  <span class="menu__card_list-divider">$2.5</span>
                 </li>
-                <li class="card__list-item">
-                  <span class="card__list_item-description">Mocha</span>
-                  <span class="card__list-divider">$3</span>
+                <li class="menu__card_list-item">
+                  <span class="menu__card_list-item-description">Mocha</span>
+                  <span class="menu__card_list-divider">$3</span>
                 </li>
-                <li class="card__list-item">
-                  <span class="card__list_item-description"
+                <li class="menu__card_list-item">
+                  <span class="menu__card_list-item-description"
                     >Amanecer en Bay Area(descafeinado)</span
                   >
-                  <span class="card__list-divider">$10</span>
+                  <span class="menu__card_list-divider">$10</span>
                 </li>
               </ul>
             </div>
-            <div class="card">
+            <div class="menu__card">
               <ul>
-                <h4 class="card__title">Repostería</h4>
-                <li class="card__list-item">
-                  <span class="card__list_item-description"
+                <h4 class="menu__card_title">Repostería</h4>
+                <li class="menu__card_list-item">
+                  <span class="menu__card_list-item-description"
                     >Croissant de almendra</span
                   >
-                  <span class="card__list-divider">$2</span>
+                  <span class="menu__card_list-divider">$2</span>
                 </li>
-                <li class="card__list-item">
-                  <span class="card__list_item-description">Pan de banana</span>
-                  <span class="card__list-divider">$1.75</span>
+                <li class="menu__card_list-item">
+                  <span class="menu__card_list-item-description"
+                    >Pan de banana</span
+                  >
+                  <span class="menu__card_list-divider">$1.75</span>
                 </li>
-                <li class="card__list-item">
-                  <span class="card__list_item-description"
+                <li class="menu__card_list-item">
+                  <span class="menu__card_list-item-description"
                     >Tarta de limón</span
                   >
-                  <span class="card__list-divider">$3</span>
+                  <span class="menu__card_list-divider">$3</span>
                 </li>
-                <li class="card__list-item">
-                  <span class="card__list_item-description"
+                <li class="menu__card_list-item">
+                  <span class="menu__card_list-item-description"
                     >Pastel Blue velvet</span
                   >
-                  <span class="card__list-divider">$3.75</span>
+                  <span class="menu__card_list-divider">$3.75</span>
                 </li>
-                <li class="card__list-item">
-                  <span class="card__list_item-description">Cookie web</span>
-                  <span class="card__list-divider">$2</span>
+                <li class="menu__card_list-item">
+                  <span class="menu__card_list-item-description"
+                    >Cookie web</span
+                  >
+                  <span class="menu__card_list-divider">$2</span>
                 </li>
-                <li class="card__list-item">
-                  <span class="card__list_item-description"
+                <li class="menu__card_list-item">
+                  <span class="menu__card_list-item-description"
                     >Baguette fresco</span
                   >
-                  <span class="card__list-divider">$0.25</span>
+                  <span class="menu__card_list-divider">$0.25</span>
                 </li>
               </ul>
             </div>

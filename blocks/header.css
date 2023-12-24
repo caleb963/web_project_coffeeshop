@@ -1,0 +1,129 @@
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  padding: 30px 80px 40px;
+  background-color: #ffffff;
+  background-image: url("/images/background_header.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav_logo {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 105px;
+  height: 39px;
+}
+
+.header__nav_links {
+  display: flex;
+  column-gap: 20px;
+  list-style: none;
+}
+
+.header__nav_link {
+  padding-top: 30px;
+  left: 80px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__title {
+  top: 183px;
+  color: #000000;
+  max-width: 729px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  z-index: 1;
+}
+
+.header__description {
+  color: #000000;
+  margin-left: 80px;
+  max-width: 683px;
+  font-family: "Noto Serif, serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  z-index: 2;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+  display: block;
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  right: 5px;
+  top: 124px;
+  z-index: 0;
+}
+
+.header__footer {
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top: auto;
+  left: 80px;
+  bottom: 40px;
+}
+
+.header__list {
+  list-style: none;
+  padding: 0;
+  flex-basis: 76%;
+}
+
+.header__list_paragraph {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #83838383;
+}
+
+.header__paragraph {
+  right: 80px;
+  bottom: 40px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #83838383;
+  align-self: flex-end;
+}
