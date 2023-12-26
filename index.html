@@ -27,22 +27,22 @@
           <img
             src="./images/logo_coffeeshop_dark.svg"
             alt="Triple Espresso Logo"
-            class="header__nav_logo"
+            class="header__nav__logo"
           />
-          <ul class="header__nav_links">
+          <ul class="header__nav__links">
             <li>
-              <a class="header__nav_link" href="#recipes">Recetas</a>
+              <a class="header__nav__link" href="#recipes">Recetas</a>
             </li>
             <li>
-              <a class="header__nav_link" href="#reservation"
+              <a class="header__nav__link" href="#reservation"
                 >Reservar una mesa</a
               >
             </li>
             <li>
-              <a class="header__nav_link" href="#menu">Menu</a>
+              <a class="header__nav__link" href="#menu">Menu</a>
             </li>
             <li>
-              <a class="header__nav_link" href="#about">Contactos</a>
+              <a class="header__nav__link" href="#about">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -120,49 +120,49 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
-          <form class="reservation__form_form">
-            <fieldset class="reservation__form_fieldset">
-              <label class="reservation__form_label" for="nombre"
+          <form class="reservation__form">
+            <fieldset class="reservation__fieldset">
+              <label class="reservation__label" for="nombre"
                 >Nombre*
                 <input
                   type="text"
-                  class="reservation__form_input"
+                  class="reservation__input"
                   placeholder="Nombre Apellido"
                   id="nombre"
                   required
                 />
               </label>
-              <label class="reservation__form_label" for="num"
+              <label class="reservation__label" for="num"
                 >Numero de comensales*
                 <input
                   type="number"
-                  class="reservation__form_input"
+                  class="reservation__input"
                   placeholder="1-8"
                   id="num"
                   required
               /></label>
-              <label class="reservation__form_label" for="date">
+              <label class="reservation__label" for="date">
                 Fecha y hora*
                 <input
                   type="datetime-local"
-                  class="reservation__form_input"
+                  class="reservation__input"
                   id="date"
                 />
               </label>
-              <label class="reservation__form_label" for="email"
+              <label class="reservation__label" for="email"
                 >Tu correo electronico*
                 <input
                   type="email"
-                  class="reservation__form_input"
+                  class="reservation__input"
                   placeholder="email@email.com"
                   id="email"
               /></label>
             </fieldset>
-            <button class="reservation__form_button">Reservar una mesa</button>
-            <label class="reservation__form_label-checkbox" for="aceptar">
+            <button class="reservation__button">Reservar una mesa</button>
+            <label class="reservation__label_checkbox" for="aceptar">
               <input
                 type="checkbox"
-                class="reservation__form_checkbox"
+                class="reservation__checkbox"
                 id="aceptar"
               />
               Acepto los terminos de uso
@@ -180,100 +180,100 @@
           <div class="menu__cards">
             <div class="menu__card">
               <ul>
-                <h4 class="menu__card_title">De filtro</h4>
-                <li class="menu__card_list-item">
-                  <span class="menu__card_list-item-description"
+                <li class="menu__list-item">
+                  <h4 class="menu__card-title">De filtro</h4>
+                </li>
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description"
                     >Regular (350 ml)</span
                   >
-                  <span class="menu__card_list-divider">$1</span>
+                  <span class="menu__list-divider">$1</span>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="card__list_item-description"
+                <li class="menu__list-item">
+                  <span class="menu__list_item-description"
                     >Grande (470 ml)</span
                   >
-                  <span class="menu__card_list-divider">$1.25</span>
+                  <span class="menu__list-divider">$1.25</span>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="card__list_item-description">XL (590 ml)</span>
-                  <span class="menu__card_list-divider">$1.5</span>
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description">XL (590 ml)</span>
+                  <span class="menu__list-divider">$1.5</span>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="card__list_item-description"
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description"
                     >Tamaño familiar (700 ml, descafeinado)</span
                   >
-                  <span class="menu__card_list-divider">$1.75</span>
+                  <span class="menu__list-divider">$1.75</span>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="card__list_item-description"
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description"
                     >Café helado(470 ml)</span
                   >
-                  <span class="menu__card_list-divider">$3</span>
+                  <span class="menu__list-divider">$3</span>
                 </li>
               </ul>
             </div>
             <div class="menu__card">
               <ul>
-                <h4 class="menu__card_title">Espresso</h4>
-                <li class="menu__card_list-item">
-                  <span class="menu__card_list-item-description"
-                    >Macchiato</span
-                  >
-                  <span class="menu__card_list-divider">$2.25</span>
+                <li class="menu__list_item">
+                  <h4 class="menu__card-title">Espresso</h4>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="menu__card_list-item-description">Cortado</span>
-                  <span class="menu__card_list-divider">$2.5</span>
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description">Macchiato</span>
+                  <span class="menu__list-divider">$2.25</span>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="menu__card_list-item-description">Mocha</span>
-                  <span class="menu__card_list-divider">$3</span>
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description">Cortado</span>
+                  <span class="menu__list-divider">$2.5</span>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="menu__card_list-item-description"
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description">Mocha</span>
+                  <span class="menu__list-divider">$3</span>
+                </li>
+                <li class="menu__list_item">
+                  <span class="menu__list-item-description"
                     >Amanecer en Bay Area(descafeinado)</span
                   >
-                  <span class="menu__card_list-divider">$10</span>
+                  <span class="menu__list-divider">$10</span>
                 </li>
               </ul>
             </div>
             <div class="menu__card">
               <ul>
-                <h4 class="menu__card_title">Repostería</h4>
-                <li class="menu__card_list-item">
-                  <span class="menu__card_list-item-description"
+                <li class="menu__list_item">
+                  <h4 class="menu__card-title">Repostería</h4>
+                </li>
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description"
                     >Croissant de almendra</span
                   >
-                  <span class="menu__card_list-divider">$2</span>
+                  <span class="menu__list-divider">$2</span>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="menu__card_list-item-description"
-                    >Pan de banana</span
-                  >
-                  <span class="menu__card_list-divider">$1.75</span>
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description">Pan de banana</span>
+                  <span class="menu__list-divider">$1.75</span>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="menu__card_list-item-description"
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description"
                     >Tarta de limón</span
                   >
-                  <span class="menu__card_list-divider">$3</span>
+                  <span class="menu__list-divider">$3</span>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="menu__card_list-item-description"
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description"
                     >Pastel Blue velvet</span
                   >
-                  <span class="menu__card_list-divider">$3.75</span>
+                  <span class="menu__list-divider">$3.75</span>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="menu__card_list-item-description"
-                    >Cookie web</span
-                  >
-                  <span class="menu__card_list-divider">$2</span>
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description">Cookie web</span>
+                  <span class="menu__list-divider">$2</span>
                 </li>
-                <li class="menu__card_list-item">
-                  <span class="menu__card_list-item-description"
+                <li class="menu__list_item">
+                  <span class="menu__list_item-description"
                     >Baguette fresco</span
                   >
-                  <span class="menu__card_list-divider">$0.25</span>
+                  <span class="menu__list-divider">$0.25</span>
                 </li>
               </ul>
             </div>

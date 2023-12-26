@@ -42,7 +42,7 @@
   margin-bottom: 100px;
 }
 
-.menu__card_title {
+.menu__card-title {
   margin-bottom: 32px;
   font-family: "Inter";
   font-style: normal;
@@ -51,7 +51,7 @@
   line-height: 30px;
 }
 
-.menu__card_list-item {
+.menu___list_item {
   margin-bottom: 16px;
   font-family: "Noto-Serif";
   font-style: normal;
@@ -63,13 +63,13 @@
   align-items: center;
 }
 
-.menu__card_list-item-description {
+.menu__list_item-description {
   flex-grow: 1;
   margin-right: 10px;
 }
 
-.menu__card_list-divider::before {
-  content: "________________________________________";
+.menu__list-divider::before {
+  content: "___________________________________________________";
   border-bottom-left-radius: 1px solid black;
   flex-grow: 1;
   margin-right: 10px;
