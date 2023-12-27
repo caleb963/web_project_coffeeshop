@@ -13,7 +13,7 @@
   background-position: center;
 }
 
-.header__nav {
+.nav {
   display: flex;
   justify-content: space-between;
 }
