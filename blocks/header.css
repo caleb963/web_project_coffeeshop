@@ -44,7 +44,7 @@
   color: #000000;
 }
 
-nav__link:hover {
+.nav__link:hover {
   color: #2f80ed;
 }
 
