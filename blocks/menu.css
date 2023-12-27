@@ -51,7 +51,7 @@
   line-height: 30px;
 }
 
-.menu___list_item {
+.menu__item {
   margin-bottom: 16px;
   font-family: "Noto-Serif";
   font-style: normal;
@@ -63,7 +63,7 @@
   align-items: center;
 }
 
-.menu__list_item-description {
+.menu__item-description {
   flex-grow: 1;
   margin-right: 10px;
 }
