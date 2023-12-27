@@ -69,7 +69,7 @@
 }
 
 .menu__list-divider::before {
-  content: "___________________________________________________";
+  content: "____________________________________________";
   border-bottom-left-radius: 1px solid black;
   flex-grow: 1;
   margin-right: 10px;
