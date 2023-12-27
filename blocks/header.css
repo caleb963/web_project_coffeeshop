@@ -44,6 +44,10 @@
   color: #000000;
 }
 
+nav__link:hover {
+  color: #2f80ed;
+}
+
 .header__title {
   top: 183px;
   color: #000000;
