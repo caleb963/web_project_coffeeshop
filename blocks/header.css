@@ -26,13 +26,13 @@
   height: 39px;
 }
 
-.header__links {
+.nav__links {
   display: flex;
   column-gap: 20px;
   list-style: none;
 }
 
-.header__link {
+.nav__link {
   padding-top: 30px;
   left: 80px;
   font-family: "Inter", Arial, sans-serif;
