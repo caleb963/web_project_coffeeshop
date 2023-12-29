@@ -91,9 +91,7 @@
                 allowfullscreen
               ></iframe>
               <p class="recipes__video-caption">
-                Receta en aeropress &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-                ~5min
+                Receta en aeropress <span> ~5min</span>
               </p>
             </div>
             <div>
@@ -108,9 +106,7 @@
               ></iframe>
 
               <p class="recipes__video-caption">
-                Receta en cafetera francesa &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp;~15min
+                Receta en cafetera francesa <span>~15min</span>
               </p>
             </div>
           </div>
@@ -140,7 +136,12 @@
               /></label>
               <label class="form__label" for="date">
                 Fecha y hora*
-                <input type="datetime-local" class="form__input" id="date" />
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  id="date"
+                  required
+                />
               </label>
               <label class="form__label" for="email"
                 >Tu correo electronico*
@@ -149,11 +150,17 @@
                   class="form__input"
                   placeholder="email@email.com"
                   id="email"
+                  required
               /></label>
             </fieldset>
             <button class="form__button">Reservar una mesa</button>
             <label class="form__checkbox-label" for="aceptar">
-              <input type="checkbox" class="form__checkbox" id="aceptar" />
+              <input
+                type="checkbox"
+                class="form__checkbox"
+                id="aceptar"
+                required
+              />
               Acepto los terminos de uso
             </label>
           </form>

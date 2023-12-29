@@ -26,7 +26,7 @@
   color: #000000;
   max-width: 729px;
   margin-left: 80px;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -93,8 +93,8 @@
 }
 
 .header__paragraph {
-  right: 80px;
-  bottom: 40px;
+  margin-right: 80px;
+  margin-bottom: 40px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;

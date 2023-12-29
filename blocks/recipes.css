@@ -7,7 +7,7 @@
   display: block;
   color: #ffffff;
   padding-top: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 215px;
 }
 
 .recipes__title {
@@ -46,6 +46,9 @@
 
 .recipes__video-caption {
   font-family: "Inter, Arial, sans-serif";
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
